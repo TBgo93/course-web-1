@@ -1,0 +1,40 @@
+/* Resetear los del navegador por defecto */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: antiquewhite; /* Color ofrecido por el editor */
+  background-color: #F7E3B5; /* Hexadecimal */
+  background-color: rgb(247, 227, 181 ); /* RGB */
+}
+header {
+  background-color: gainsboro;
+}
+
+header > nav {
+  font-size: 16px;
+  padding: 24px;
+}
+
+header > nav > ul {
+  display: flex;
+
+}
+li {
+  list-style: none;
+  padding: 16px;
+}
+
+/* 
+  Formas de dar estilo a una etiqueta:
+
+  Por su nombre:
+    etiqueta 
+  Por su clase:
+    .etiqueta
+  Por su ID o identificador unico:
+    #etiqueta 
+*/
