@@ -10,6 +10,12 @@ body {
   background-color: #F7E3B5; /* Hexadecimal */
   background-color: rgb(247, 227, 181 ); /* RGB */
 }
+
+li {
+  list-style: none;
+  padding: 16px;
+}
+
 header {
   background-color: gainsboro;
 }
@@ -21,11 +27,27 @@ header > nav {
 
 header > nav > ul {
   display: flex;
-
+  align-items: center;
+  justify-content: center;
 }
-li {
-  list-style: none;
-  padding: 16px;
+
+footer {
+  background-color: gainsboro;
+}
+
+#footer-contenido {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+#footer-contenido > div {
+  margin: 16px;
+}
+
+footer > nav > ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* 
@@ -37,4 +59,28 @@ li {
     .etiqueta
   Por su ID o identificador unico:
     #etiqueta 
+*/
+
+/* display: flex */
+/* 
+  flex-direction:
+    - column --- columna
+    - row ------ fila
+*/
+/* 
+  align-items: 
+    - center
+    - start
+    - end
+  justify-content: 
+    - center
+    - start
+    - end
+*/
+
+/* display: grid */
+/* 
+  grid-template-columns: repeat(2, 250px);
+
+  grid-template-rows: repeat(2, 250px);
 */
